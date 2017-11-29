@@ -492,7 +492,7 @@ Partial Class frmMain
         Me.lblVersion.Font = New System.Drawing.Font("Arial Black", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblVersion.Location = New System.Drawing.Point(214, 32)
         Me.lblVersion.Name = "lblVersion"
-        Me.lblVersion.Size = New System.Drawing.Size(129, 23)
+        Me.lblVersion.Size = New System.Drawing.Size(130, 23)
         Me.lblVersion.TabIndex = 3
         Me.lblVersion.Text = " Version 1.0.0"
         Me.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1610,14 +1610,14 @@ Partial Class frmMain
         '
         Me.ConvertSEQIntoDATToolStripMenuItem.Image = Global.GueNightFly.My.Resources.Resources.seq_File
         Me.ConvertSEQIntoDATToolStripMenuItem.Name = "ConvertSEQIntoDATToolStripMenuItem"
-        Me.ConvertSEQIntoDATToolStripMenuItem.Size = New System.Drawing.Size(195, 22)
+        Me.ConvertSEQIntoDATToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.ConvertSEQIntoDATToolStripMenuItem.Text = "Convert .SEQ into .DAT"
         '
         'ConvertCSVIntoDATToolStripMenuItem
         '
         Me.ConvertCSVIntoDATToolStripMenuItem.Image = Global.GueNightFly.My.Resources.Resources.excel
         Me.ConvertCSVIntoDATToolStripMenuItem.Name = "ConvertCSVIntoDATToolStripMenuItem"
-        Me.ConvertCSVIntoDATToolStripMenuItem.Size = New System.Drawing.Size(195, 22)
+        Me.ConvertCSVIntoDATToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.ConvertCSVIntoDATToolStripMenuItem.Text = "Convert .CSV into .DAT"
         '
         'tsbUpload
