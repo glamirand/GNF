@@ -1004,7 +1004,7 @@ Public Class frmMain
                 For i As Integer = 0 To DstBytes.Length - 1
                     DstBytes(i) = Datas(i)
                 Next
-                    Writer.Write(DstBytes, 0, DstBytesCount - 1)
+                Writer.Write(DstBytes, 0, DstBytesCount - 1)
                 Writer.Close()
 
 
@@ -1069,13 +1069,5 @@ Public Class frmMain
             End If
 
         End With
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
     End Sub
 End Class
